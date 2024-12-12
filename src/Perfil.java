@@ -15,6 +15,10 @@ public class Perfil {
         this.datosCuriosos = datosCuriosos;
     }
 
+    public String getHistoria() {
+        return historia;
+    }
+
     public String getFavoritos() {
         StringBuilder sb = new StringBuilder();
         sb.append("Pasatiempos:\n");
