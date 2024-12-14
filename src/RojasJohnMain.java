@@ -1,9 +1,9 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class RojasJohnMain {
     public static void main(String[] args) {
-        Perfil perfil = new Perfil(
+        RojasJohnPerfil perfil = new RojasJohnPerfil(
                 "John Rojas",
                 "Soy un curioso por naturaleza.",
                 Arrays.asList("Caminar", "Leer", "Viajar"),

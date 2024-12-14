@@ -4,7 +4,7 @@ import java.util.Random;
 /**
  * Clase Perfil representa un perfil de usuario con varias categorías de información.
  */
-public class Perfil {
+public class RojasJohnPerfil {
     private String nombre;
     private String historia;
     private List<String> pasatiempos;
@@ -20,7 +20,7 @@ public class Perfil {
      * @param comidasFavoritas  Lista de comidas favoritas.
      * @param datosCuriosos     Lista de datos curiosos.
      */
-    public Perfil(String nombre, String historia, List<String> pasatiempos, List<String> comidasFavoritas, List<String> datosCuriosos) {
+    public RojasJohnPerfil(String nombre, String historia, List<String> pasatiempos, List<String> comidasFavoritas, List<String> datosCuriosos) {
         this.nombre = nombre;
         this.historia = historia;
         this.pasatiempos = pasatiempos;
